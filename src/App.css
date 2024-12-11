@@ -1,0 +1,17 @@
+/* App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  flex: 1; /* Questo fa sì che il contenuto prenda tutta la parte rimanente della pagina */
+}
+
+/* Aggiungi qui il resto dei tuoi stili globali */

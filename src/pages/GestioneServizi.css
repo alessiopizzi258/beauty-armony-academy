@@ -1,0 +1,130 @@
+/* Contenitore principale */
+.pagina-host {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Titolo principale */
+  .pagina-host h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Aumentato per distanziare meglio dal contenuto */
+  }
+  
+  /* Form per aggiungere un servizio */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px; /* Aggiunto più spazio tra il form e la lista dei servizi */
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sezione dei servizi */
+  .servizi-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Aumentato per distanziare meglio le card */
+    justify-content: center;
+    margin-bottom: 40px; /* Aggiunto più spazio sotto la lista dei servizi */
+  }
+  
+  .servizio-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .servizio-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .servizio-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .servizio-card-body {
+    padding: 15px;
+  }
+  
+  .servizio-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .servizio-card-description {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .servizio-card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }
+  
+  .servizio-card-actions button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .servizio-card-actions button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .servizio-card-actions button:nth-child(2) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .servizio-card-actions button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Sezione di modifica del servizio */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px; /* Spazio tra la lista dei servizi e il form di modifica */
+  }
+  
+  h2 {
+    margin-top: 40px; /* Spazio sopra il titolo "Modifica Servizio" */
+  }
+  
+  button[type="button"] {
+    margin-top: 10px; /* Distanza tra il pulsante "Annulla" e gli altri */
+  }
+  

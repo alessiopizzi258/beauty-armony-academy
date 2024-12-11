@@ -1,0 +1,139 @@
+/* Container principale per la pagina corsi */
+.corsi-page {
+  background-color: #f9f9f9; /* Sfondo chiaro */
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif; /* Usa il font Roboto per questa pagina */
+}
+
+/* Titolo principale della pagina */
+.corsi-page h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Container che tiene tutte le card dei corsi */
+.corsi-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Card per ogni corso */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 280px;
+  max-width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Immagine del corso */
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contenuto della card */
+.card-content {
+  padding: 20px;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin: 15px 0;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+/* Stile per il pulsante "Sei Host? Accedi" */
+.btn-host {
+  background-color: #4CAF50; /* Colore di sfondo verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none; /* Nessun bordo */
+  transition: background-color 0.3s ease;
+}
+
+.btn-host:hover {
+  background-color: #45a049; /* Colore più scuro al passaggio del mouse */
+}
+
+/* Prezzo e durata */
+.card p strong {
+  color: #27ae60; /* Verde per il prezzo */
+  font-weight: bold;
+}
+
+/* Bottone per iscriversi */
+.card button {
+  background-color: #3498db; /* Blu come nel servizio */
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+/* Effetto hover sul bottone */
+.card button:hover {
+  background-color: #2980b9; /* Blu scuro */
+  transform: scale(1.05);
+}
+
+/* Hover sulla card */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+  .corsi-page h2 {
+      font-size: 2em;
+  }
+
+  .card {
+      width: 90%;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 1.4rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .card button {
+    width: 100%;
+    padding: 10px;
+  }
+}

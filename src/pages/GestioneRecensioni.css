@@ -1,0 +1,80 @@
+.gestione-recensioni {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gestione-recensioni h2 {
+  text-align: center;
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.gestione-recensioni ul li {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Stile per il pulsante "Sei Host? Accedi" */
+.btn-host {
+  background-color: #4CAF50; /* Colore di sfondo verde */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none; /* Nessun bordo */
+  transition: background-color 0.3s ease;
+}
+
+.btn-host:hover {
+  background-color: #45a049; /* Colore più scuro al passaggio del mouse */
+}
+
+ul li p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+ul li button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+ul li button:nth-child(2) {
+  background-color: #d9534f;
+}
+
+ul li button:hover {
+  opacity: 0.9;
+}
+
+.error {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2dede;
+  color: #a94442;
+  border: 1px solid #ebccd1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

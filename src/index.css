@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex: 1;  /* Permette al main di occupare lo spazio disponibile */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer {
+  display: flex;
+  margin-top: auto; /* Assicura che il footer si sposti sempre alla fine */
+}

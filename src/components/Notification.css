@@ -1,0 +1,26 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    background-color: #28a745; /* Success green */
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.notification.error {
+    background-color: #dc3545; /* Error red */
+}
+
+.notification.success {
+    background-color: #28a745; /* Success green */
+}
+
+.notification.warning {
+    background-color: #ffc107; /* Warning yellow */
+}

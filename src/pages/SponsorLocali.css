@@ -1,0 +1,71 @@
+.sponsor-locali-container {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .sponsor-locali-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sponsor-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .sponsor-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .sponsor-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .sponsor-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .sponsor-info h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .sponsor-info p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .sponsor-link {
+    display: inline-block;
+    margin: 10px 0;
+    color: #f8b400;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .sponsor-link:hover {
+    color: #f05d23;
+  }
+  
+  .sponsor-offerta {
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
