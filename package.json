@@ -19,14 +19,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-,
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -45,5 +44,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://alessiopizzi258.github.io/my-react-app"
+  "homepage": "https://alessiopizzi258.github.io/beauty-armony-academy",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
 }
